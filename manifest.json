@@ -1,0 +1,16 @@
+{
+  "name": "Pin Keyboard Shortcut",
+  "version": "0.1",
+  "description": "Creates a keyboard shortcut (Ctrl+Shift+A) to toggle the pinned state of the current tab",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "toggle-pin": {
+      "suggested_key": { "default": "Ctrl+Shift+A" },
+      "description": "Toggle tab pin"
+    }
+  },
+  "manifest_version": 2
+}
